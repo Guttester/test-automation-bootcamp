@@ -1,0 +1,17 @@
+{
+  "name": "test-automation-bootcamp",
+  "version": "1.0.0",
+  "description": "Automação de teste com Playwright",
+  "license": "ISC",
+  "author": "Guttester.dev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "suite05": "playwright test --grep \"@Suite05\" --config=config.ts --project=Firefox"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.63.0",
+    "prettier": "^3.9.9"
+  }
+}
